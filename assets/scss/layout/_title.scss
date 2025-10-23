@@ -1,4 +1,17 @@
 .title {
     color: #112E3E;
     text-align: center;
+
+    .presentation {
+
+        .presentation-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+
+            .presentation-content {
+                text-align: center;
+            }
+        }
+    }
 }
