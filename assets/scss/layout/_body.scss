@@ -4,4 +4,8 @@ body {
     margin: 0;
     font-family: var.$main-font;
     color: var.$primary-color;
+
+    a {
+        text-decoration: none;
+    }
 }

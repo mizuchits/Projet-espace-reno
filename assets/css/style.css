@@ -46,7 +46,6 @@ footer .footer-copyright {
   margin: 0;
 }
 footer .footer-copyright a {
-  text-decoration: none;
   color: white;
 }
 footer .container {
@@ -99,7 +98,6 @@ header .header-container li {
   list-style-type: none;
 }
 header .header-container a {
-  text-decoration: none;
   color: white;
 }
 
@@ -107,6 +105,9 @@ body {
   margin: 0;
   font-family: "Lato Regular";
   color: #112E3E;
+}
+body a {
+  text-decoration: none;
 }
 
 .title {
@@ -146,7 +147,6 @@ body {
   justify-content: space-evenly;
 }
 .contact .container .contact-container .contact-content a {
-  text-decoration: none;
   color: #112E3E;
 }
 
