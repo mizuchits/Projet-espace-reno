@@ -21,8 +21,17 @@ header {
         display: flex;
         gap: 10px;
 
+        .border {
+            padding-right: 10px;
+            border-right: 1px solid white;
+        }
+
         li {
             list-style-type: none;
+
+
+
+
         }
 
         a {

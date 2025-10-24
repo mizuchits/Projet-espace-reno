@@ -1,0 +1,11 @@
+.exemple {
+    margin-top: 100px;
+    text-align: center;
+
+    .exemple-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+    }
+}
