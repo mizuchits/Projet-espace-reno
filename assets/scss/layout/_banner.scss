@@ -1,7 +1,9 @@
+@use "../abstracts/variables" as var;
+
 .banner {
     background-image: url(../img/PHOTO-BUEAU.jpg);
     padding: 60px 0;
-    color: white;
+    color: var.$color-white;
 
     span {
         color: gold;

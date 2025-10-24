@@ -1,5 +1,7 @@
+@use "../abstracts/variables" as var;
+
 body {
     margin: 0;
-    font-family: "Lato Regular";
-    color: #112E3E;
+    font-family: var.$main-font;
+    color: var.$primary-color;
 }

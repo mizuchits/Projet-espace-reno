@@ -1,8 +1,10 @@
+@use "../abstracts/variables" as var;
+
 header {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #112E3E;
+    background-color: var.$primary-color;
     padding: 20px 0;
 
     img {
@@ -23,7 +25,7 @@ header {
 
         .border {
             padding-right: 10px;
-            border-right: 1px solid white;
+            border-right: 1px solid var.$color-white;
         }
 
         li {
@@ -32,7 +34,7 @@ header {
 
         a {
             text-decoration: none;
-            color: white;
+            color: var.$color-white;
         }
     }
 }
