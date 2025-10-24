@@ -1,0 +1,19 @@
+.contact {
+    margin-top: 100px;
+    text-align: center;
+
+    .container {
+        .contact-container {
+            display: flex;
+            justify-content: space-evenly;
+
+            .contact-content {
+
+                a {
+                    text-decoration: none;
+                    color: #112E3E;
+                }
+            }
+        }
+    }
+}

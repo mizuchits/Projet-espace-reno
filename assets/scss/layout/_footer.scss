@@ -1,0 +1,43 @@
+footer {
+    background-color: #112E3E;
+    margin-top: 100px;
+    color: white;
+    padding-top: 50px;
+
+    .footer-copyright {
+        text-align: center;
+        margin: 0;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+
+        .footer-work {
+            width: 400px;
+            border-right: 1px solid white;
+            padding-right: 20px;
+        }
+
+        .footer-contact {
+            padding-left: 10px;
+        }
+
+        img {
+            height: 100px;
+        }
+
+        .footer-logo {
+            display: flex;
+
+            img {
+                height: 20px;
+            }
+        }
+    }
+}
